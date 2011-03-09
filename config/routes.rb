@@ -1,13 +1,6 @@
 TestApp::Application.routes.draw do
-  get "users/new"
 
-  get "users/index"
-
-  get "users/create"
-
-  get "users/update"
-
-  get "users/delete"
+  resources :users
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
